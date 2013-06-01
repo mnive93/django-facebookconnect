@@ -114,8 +114,8 @@ TEMPLATE_DIRS = (
     # Don't forget to use absolute paths, not relative paths.
     os.path.join(os.path.dirname(__file__), 'templates'),
 )
-FACEBOOK_APP_ID              = '420827331357585'
-FACEBOOK_APP_SECRET          = 'b4579f4c51d2252a763b7f5e67e3534c'
+FACEBOOK_APP_ID              = 'YOUR_ID'
+FACEBOOK_APP_SECRET          = 'YOUR_SECRET'
 FACEBOOK_REDIRECT_URL = 'http://localhost:8000/facebook_login_success'
 INSTALLED_APPS = (
     'django.contrib.auth',
